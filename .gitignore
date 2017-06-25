@@ -103,4 +103,4 @@ ENV/
 ### Django ###
 db.sqlite3
 media
-
+migrations
