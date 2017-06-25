@@ -19,6 +19,66 @@ For retrieving data over REST
 	By this way we stop using dummy data and we will
 	replace to make calls to an API REST made in django
 
+For quick testing we use:
+	-ListAPIView but ViewSets Are more Powerful
+
+So ... For Saving new cards with POST:
+
+-------------In DJANGO config to do a POST-------------------------------
+	- We use ViewSets in Django
+	- Routers in Django
+By this way we simpify common requests Methods on a CARD
+
+We use ModelViewSet:
+	For supportting (GET,PUT,POST,DELETE) on a model 
+	in this case: a Card
+
+We use Router to register our main url for the API in this case 
+	http://localhost:8000/scrumboard/cards/
+ 	with capacity of GET,POST,PUT,DELETE
+	
+IMPORTANT!: All URLs end in a slash so we need specify for 
+our front-end
+
+
+-------------In Angular CONFIG to do a POST----------
+-We use $http.post() 
+and for CSRF protection 
+Error Handling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
