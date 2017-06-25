@@ -10,4 +10,16 @@ Using Directives:
 	ng-click to call a function
 	ng-model to bind input to scope
 
+We use ng-model to bind 'new_title' property to a our scope
+We call $scope.add method with ng-click="add(list,new_title)"
+
+For retrieving data over REST
+	-inyect $http service
+	-using $http service
+	By this way we stop using dummy data and we will
+	replace to make calls to an API REST made in django
+
+
+
+
 
