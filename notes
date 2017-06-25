@@ -1,0 +1,13 @@
+We use Verbatim tag to avoid conflicts with curly braces
+
+For testing with dummy data:
+	Model = JS variable
+	View = Template of Django
+	Controller = JS function   
+
+Using Directives:
+	ng-repeat loop over lists
+	ng-click to call a function
+	ng-model to bind input to scope
+
+
